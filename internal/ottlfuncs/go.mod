@@ -1,16 +1,16 @@
-module github.com/GoogleCloudPlatform/opentelemetry-operations-collector/internal/ottlfuncs
+module github.com/franciscovalentecastro/opentelemetry-operations-collector/internal/ottlfuncs
 
 go 1.24.4
 
 require (
-	github.com/GoogleCloudPlatform/opentelemetry-operations-collector/third_party/go-oniguruma v0.130.0
+	github.com/franciscovalentecastro/opentelemetry-operations-collector/third_party/go-oniguruma v0.130.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl v0.130.0
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/pdata v1.35.0
 )
 
 require (
-	github.com/GoogleCloudPlatform/opentelemetry-operations-collector/third_party/oniguruma/src v0.130.0 // indirect
+	github.com/franciscovalentecastro/opentelemetry-operations-collector/third_party/oniguruma/src v0.130.0 // indirect
 	github.com/alecthomas/participle/v2 v2.1.4 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
@@ -43,6 +43,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/GoogleCloudPlatform/opentelemetry-operations-collector/third_party/oniguruma/src v0.130.0 => ../../third_party/oniguruma/src
+replace github.com/franciscovalentecastro/opentelemetry-operations-collector/third_party/oniguruma/src v0.130.0 => ../../third_party/oniguruma/src
 
-replace github.com/GoogleCloudPlatform/opentelemetry-operations-collector/third_party/go-oniguruma v0.130.0 => ../../third_party/go-oniguruma
+replace github.com/franciscovalentecastro/opentelemetry-operations-collector/third_party/go-oniguruma v0.130.0 => ../../third_party/go-oniguruma

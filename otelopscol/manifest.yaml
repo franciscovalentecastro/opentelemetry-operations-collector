@@ -52,7 +52,7 @@ processors:
   path: ../components/otelopscol/processor/modifyscopeprocessor
 - gomod: github.com/GoogleCloudPlatform/opentelemetry-operations-collector/components/otelopscol/processor/normalizesumsprocessor v0.130.0
   path: ../components/otelopscol/processor/normalizesumsprocessor
-- gomod: github.com/GoogleCloudPlatform/opentelemetry-operations-collector/components/otelopscol/processor/transformprocessor v0.130.0
+- gomod: github.com/franciscovalentecastro/opentelemetry-operations-collector/components/otelopscol/processor/transformprocessor v0.130.0
   path: ../components/otelopscol/processor/transformprocessor
 - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor v0.130.0
 - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatorateprocessor v0.130.0
@@ -84,9 +84,9 @@ providers:
 
 replaces:
 # Modified version of third party library.
-- github.com/GoogleCloudPlatform/opentelemetry-operations-collector/third_party/oniguruma/src => ../../third_party/oniguruma/src
+- github.com/franciscovalentecastro/opentelemetry-operations-collector/third_party/oniguruma/src => ../../third_party/oniguruma/src
 # Modified version of third party library.
-- github.com/GoogleCloudPlatform/opentelemetry-operations-collector/third_party/go-oniguruma => ../../third_party/go-oniguruma/
+- github.com/franciscovalentecastro/opentelemetry-operations-collector/third_party/go-oniguruma => ../../third_party/go-oniguruma/
 # Add internal ottlfuncs package.
-- github.com/GoogleCloudPlatform/opentelemetry-operations-collector/internal/ottlfuncs => ../../internal/ottlfuncs/
+- github.com/franciscovalentecastro/opentelemetry-operations-collector/internal/ottlfuncs => ../../internal/ottlfuncs/
 
