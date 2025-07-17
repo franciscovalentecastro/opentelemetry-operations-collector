@@ -3,7 +3,7 @@ module github.com/franciscovalentecastro/opentelemetry-operations-collector/inte
 go 1.24.4
 
 require (
-	github.com/franciscovalentecastro/opentelemetry-operations-collector/third_party/go-oniguruma v0.999.0
+	github.com/franciscovalentecastro/opentelemetry-operations-collector/third_party/go-oniguruma v1.999.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl v0.130.0
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/pdata v1.36.0
@@ -12,7 +12,7 @@ require (
 require (
 	github.com/alecthomas/participle/v2 v2.1.4 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/franciscovalentecastro/opentelemetry-operations-collector/third_party/oniguruma/src v0.999.0 // indirect
+	github.com/franciscovalentecastro/opentelemetry-operations-collector/third_party/oniguruma/src v1.999.0 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/goccy/go-json v0.10.5 // indirect
