@@ -17,7 +17,7 @@ import (
 	"unicode/utf8"
 	"unsafe"
 
-	_ "github.com/GoogleCloudPlatform/opentelemetry-operations-collector/third_party/oniguruma/src"
+	_ "github.com/franciscovalentecastro/opentelemetry-operations-collector/third_party/oniguruma/src"
 )
 
 const numMatchStartSize = 4
