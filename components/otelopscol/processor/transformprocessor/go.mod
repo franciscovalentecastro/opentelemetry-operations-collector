@@ -15,8 +15,6 @@ require (
 )
 
 require (
-	github.com/franciscovalentecastro/franciscovalentecastro/third_party/go-oniguruma v0.999.0 // indirect
-	github.com/franciscovalentecastro/franciscovalentecastro/third_party/oniguruma/src v0.999.0 // indirect
 	github.com/alecthomas/participle/v2 v2.1.4 // indirect
 	github.com/antchfx/xmlquery v1.4.4 // indirect
 	github.com/antchfx/xpath v1.3.4 // indirect
@@ -24,6 +22,8 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/elastic/go-grok v0.3.1 // indirect
 	github.com/elastic/lunes v0.1.0 // indirect
+	github.com/franciscovalentecastro/opentelemetry-operations-collector/third_party/go-oniguruma v0.999.0 // indirect
+	github.com/franciscovalentecastro/opentelemetry-operations-collector/third_party/oniguruma/src v0.999.0 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-viper/mapstructure/v2 v2.2.1 // indirect
