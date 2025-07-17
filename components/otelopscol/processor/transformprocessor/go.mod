@@ -3,7 +3,7 @@ module github.com/franciscovalentecastro/opentelemetry-operations-collector/comp
 go 1.24.4
 
 require (
-	github.com/franciscovalentecastro/opentelemetry-operations-collector v0.999.1
+	github.com/franciscovalentecastro/opentelemetry-operations-collector v0.999.2
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl v0.130.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/processor/transformprocessor v0.128.1-0.20250621154232-1b827159a146
 	github.com/stretchr/testify v1.10.0
@@ -84,4 +84,4 @@ require (
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
 
-replace github.com/GoogleCloudPlatform/opentelemetry-operations-collector => ../../../../
+replace github.com/franciscovalentecastro/opentelemetry-operations-collector => ../../../../

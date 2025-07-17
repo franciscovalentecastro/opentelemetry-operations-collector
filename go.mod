@@ -1,4 +1,4 @@
-module github.com/GoogleCloudPlatform/opentelemetry-operations-collector
+module github.com/franciscovalentecastro/opentelemetry-operations-collector
 
 go 1.24
 
